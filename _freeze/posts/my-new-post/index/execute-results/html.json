@@ -1,0 +1,16 @@
+{
+  "hash": "ab11dfe5f5c044994208959b8f710c01",
+  "result": {
+    "markdown": "---\ntitle: \"My New Post\"\nauthor: \"Edward F. Hillenaar\"\ndate: \"2024-02-28\"\ncategories: [news, code, analysis]\nimage: \"Ed.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code  code-fold=\"true\"}\nlibrary(tidyverse)\nlibrary(gt)\n\niris %>% \n  ggplot(aes(x=Petal.Length, y=Petal.Width, color=Species))+\ngeom_point(size=5,\n           alpha = 0.6)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
